@@ -35,7 +35,7 @@ function App() {
   }, []);
   
 
-    if(window.innerWidth <= 576 ){
+    if(screen.width <= 576 ){
       if(!selected){
         return(
           <div className='container'>
